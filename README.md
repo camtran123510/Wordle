@@ -1,19 +1,19 @@
-# Android Project 1 - *Name of App Here*
+# Android Project 1 - *Wordle*
 
-Submitted by: **Your Name Here**
+Submitted by: **Cam Nhung Tran**
 
 **Name of your app** is an android app that recreates a simple version of the popular word game [Wordle](https://www.nytimes.com/games/wordle/index.html). 
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **User has 3 chances to guess a random 4 letter word**
-- [ ] **After 3 guesses, user should no longer be able to submit another guess**
-- [ ] **After each guess, user sees the "correctness" of the guess**
-- [ ] **After all guesses are taken, user can see the target word displayed**
+- [X] **User has 3 chances to guess a random 4 letter word**
+- [X] **After 3 guesses, user should no longer be able to submit another guess**
+- [X] **After each guess, user sees the "correctness" of the guess**
+- [X] **After all guesses are taken, user can see the target word displayed**
 
 The following **optional** features are implemented:
 
@@ -32,22 +32,18 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/CODUVltm1e.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with [Recordit](https://recordit.co/)
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I spend hours trying to figure out why my words were not being passed to the app. The problem was that I didn’t everything in the OnClickListener. I will now be aware what I need to put inside and outside on the OnClickListener.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2022] [Cam Nhung Tran]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
